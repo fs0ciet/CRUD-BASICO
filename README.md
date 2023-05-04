@@ -97,7 +97,7 @@ Una vez hecho esto, debajo de donde pusimos la URL, iremos a la pestaña 'Body',
 ```
 _Apretamos nuevamente el botón 'SEND' y ya tendriamos cargado en nuestra base de datos, un nuevo usuario_
 
-## Para modificar un usuario
+## Para actualizar un usuario
 
 _Seleccionaremos el metodo 'PUT' y pondremos la siguiente URL 'http://localhost:3000/update' y apretamos el boton que dice 'SEND'.
 Una vez hecho esto, debajo de donde pusimos la URL, iremos a la pestaña 'Body', selecionaremos la opción 'raw', y donde dice 'text', lo cambiaremos por 'JSON' y ya podremos modificar usuarios en el recuadro de abajo, para hacerlo basta con poner las siguientes lineas_
