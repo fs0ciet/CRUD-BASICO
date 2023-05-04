@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "nombre",
+    "apellido": "apellido",
+    "edad": 0,
+    "id": 0
+  },
+  {
+    "nombre": "Luca",
+    "apellido": "Allan",
+    "edad": 18,
+    "id": 1
+  },
+  {
+    "nombre": "Máximo",
+    "apellido": "Álvarez",
+    "edad": 18,
+    "id": 2
+  }
+]
