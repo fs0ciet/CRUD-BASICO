@@ -1,6 +1,7 @@
 # CRUD BASICO
 
 _El proyecto tratá de un CRUD Básico realizado con módulos Express, File System y Axios_
+_Con este proyecto se pueden agregar, modificar y buscar usuarios en una base de datos_
 
 ## Comenzando 
 
@@ -13,98 +14,59 @@ $ git clone https://github.com/fs0ciet/CRUD-BASICO.git
 
 ### Pre-requisitos 
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Cosas que tenes que instalar antes de comenzar a probar la aplicación_
 
 ```
-Express 4.18.2
-Axios 16.0.3
+Node.JS 20.1.0 (Actual versión)
+Postman
 
 ```
 
 ### Instalación 
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Aca te voy a dejar una serie de pasos sobre como instalar lo que necesitas para probar la aplicación_
 
-_Ins_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+_Instalación de Node_
 
 ```
-hasta finalizar
+Ingresas a la página oficial de Node.JS: 'https://nodejs.org/es'.
+Descargas la última versión (Actualmente 20.1.0).
+Finalmente ejecutas el instalador.
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+_Instalación de Postman_
 
 ```
-Da un ejemplo
+Ingresas a la página oficial de Postman para descargarlo: 'https://www.postman.com/downloads/'.
+Descargas el instalador.
+Lo ejecutas, y una vez instalado, aparecera un icono de Postman en el escritorio.
+(Más adelante te enseño como usarlo)
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
+## Instalando Express 
 
-_Explica que verifican estas pruebas y por qué_
+_Para el correcto funcionamiento de la aplicación, necesitamos del Express, para instalarlo, haremos lo siguiente_
 
 ```
-Da un ejemplo
+1° Abriremos una terminal en Visual Studio Code (CTRL+SHIFT+Ñ).
+2° Pondremos 'npm install express --save'.
+3° Listo, ya tendremos instalado Express, y los modulos de Node.
 ```
 
-## Despliegue 📦
+## Instalación de AXIOS
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Al igual que el Express, es necesario para el correcto funcionamiento_
 
-## Construido con 🛠️
+```
+npm install axios
+```
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+* **Lautaro González**
+* **Máximo Álvarez**
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
