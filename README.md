@@ -83,14 +83,33 @@ _Iremos a Postman que descargamos anteriormente, nos registraremos, y una vez ya
 4° Abriremos una nueva pestaña con el simbolo de '+' y ya estamos listos para empezar a usar la aplicación.
 ```
 
-_Para crear un usuario_
+## Para crear un usuario
 
 _Seleccionaremos el metodo 'POST' y pondremos la siguiente URL 'http://localhost:3000/create' y apretamos el boton que dice 'SEND'.
-Una vez hecho esto, debajo de donde pusimos la URL, iremos a la pestaña 'Body', selecionaremos la opción 'raw', y donde dice 'text', lo cambiaremos por 'JSON'._
+Una vez hecho esto, debajo de donde pusimos la URL, iremos a la pestaña 'Body', selecionaremos la opción 'raw', y donde dice 'text', lo cambiaremos por 'JSON' y ya podremos cargar usuarios en el recuadro de abajo, para hacerlo basta con poner las siguientes lineas_
 
+```
+{
+    "nombre": "Fulano",
+    "apellido": "Detal",
+    "edad": 20
+}
+```
+_Apretamos nuevamente el botón 'SEND' y ya tendriamos cargado en nuestra base de datos, un nuevo usuario_
 
+## Para modificar un usuario
 
+_Seleccionaremos el metodo 'PUT' y pondremos la siguiente URL 'http://localhost:3000/update' y apretamos el boton que dice 'SEND'.
+Una vez hecho esto, debajo de donde pusimos la URL, iremos a la pestaña 'Body', selecionaremos la opción 'raw', y donde dice 'text', lo cambiaremos por 'JSON' y ya podremos modificar usuarios en el recuadro de abajo, para hacerlo basta con poner las siguientes lineas_
 
+```
+{
+    "id": 1,
+    "nombre": "Homero",
+    "apellido": "Simpson",
+    "edad": 40
+}
+```
 
 ## Autores 
 
