@@ -58,14 +58,41 @@ _Para el correcto funcionamiento de la aplicación, necesitamos del Express, par
 _Al igual que el Express, es necesario para el correcto funcionamiento_
 
 ```
-npm install axios
+$ npm install axios
 ```
 
+## Probando la aplicación
+
+_Lo primero que haremos sera empezar a correr el servidor en el puerto 3000, para lograr esto pondremos lo siguiente en la consola de Visual_
+
+```
+$ npx nodemon index.mjs
+```
+_Una vez hagamos esto, bastara con guardar cambios(CTRL+S) para que el servidor comience a correr automaticamente_
+_Cuando veamos el mensaje por consola que diga_
+
+```
+!Mi aplicación esta corriendo correctamente en el puerto 3000¡
+```
+_Iremos a Postman que descargamos anteriormente, nos registraremos, y una vez ya hayamos iniciado sesión, haremos lo siguiente_
+
+```
+1° Iremos a la pestaña 'Workspaces'.
+2° Crearemos uno nuevo con el boton 'Create Workspace'.
+3° Le daremos un nombre y marcaremos la opción 'Personal'.
+4° Abriremos una nueva pestaña con el simbolo de '+' y ya estamos listos para empezar a usar la aplicación.
+```
+
+_Para crear un usuario_
+
+_Seleccionaremos el metodo 'POST' y pondremos la siguiente URL 'http://localhost:3000/create' y apretamos el boton que dice 'SEND'.
+Una vez hecho esto, debajo de donde pusimos la URL, iremos a la pestaña 'Body', selecionaremos la opción 'raw', y donde dice 'text', lo cambiaremos por 'JSON'._
 
 
 
 
-## Autores ✒️
+
+## Autores 
 
 * **Lautaro González**
 * **Máximo Álvarez**
